@@ -261,6 +261,142 @@
                 opacity: 0;
             }
         }
+
+        /* ========================================
+           ESTILOS RESPONSIVE (SOLO AGREGADOS)
+           ======================================== */
+
+        /* Tablets y pantallas medianas */
+        @media (max-width: 768px) {
+            #intro-text {
+                font-size: 2em;
+                padding: 25px;
+            }
+
+            #main-screen {
+                padding: 30px 20px;
+                max-width: 90%;
+            }
+
+            h1 {
+                font-size: 2em;
+                margin-bottom: 20px;
+            }
+
+            #main-screen p {
+                font-size: 1.3em !important;
+                margin: 15px 0 !important;
+            }
+
+            button {
+                padding: 15px 40px;
+                font-size: 1.3em;
+            }
+
+            #success-screen h1 {
+                font-size: 3em;
+            }
+
+            #couple-photo {
+                max-width: 350px;
+                width: 90%;
+                height: auto;
+            }
+
+            #sad-screen h1 {
+                font-size: 2.5em;
+                margin-bottom: 20px;
+            }
+
+            .broken-heart {
+                font-size: 4em;
+            }
+
+            #sad-photo {
+                max-width: 350px;
+                width: 90%;
+                height: auto;
+            }
+        }
+
+        /* Móviles */
+        @media (max-width: 480px) {
+            #intro-text {
+                font-size: 1.5em;
+                padding: 20px;
+                border-radius: 15px;
+            }
+
+            #main-screen {
+                padding: 25px 15px;
+                max-width: 95%;
+                border-radius: 20px;
+            }
+
+            h1 {
+                font-size: 1.6em;
+                margin-bottom: 15px;
+            }
+
+            #main-screen p {
+                font-size: 1.1em !important;
+                margin: 12px 0 !important;
+            }
+
+            .buttons-container {
+                flex-wrap: wrap;
+                gap: 15px;
+                margin-top: 20px;
+            }
+
+            button {
+                padding: 12px 30px;
+                font-size: 1.1em;
+                border-radius: 12px;
+            }
+
+            #success-screen {
+                padding: 20px;
+            }
+
+            #success-screen h1 {
+                font-size: 2em;
+            }
+
+            #couple-photo {
+                max-width: 280px;
+                width: 95%;
+                margin: 20px auto;
+                border: 3px solid white;
+            }
+
+            .floating-heart {
+                font-size: 1.5em;
+            }
+
+            #sad-screen {
+                padding: 20px;
+            }
+
+            #sad-screen h1 {
+                font-size: 2em;
+                margin-bottom: 15px;
+            }
+
+            .broken-heart {
+                font-size: 3em;
+            }
+
+            #sad-photo {
+                max-width: 280px;
+                width: 95%;
+                margin: 20px auto;
+            }
+
+            .broken-heart-particle {
+                font-size: 2em;
+            }
+        }
     </style>
 </head>
 <body>
